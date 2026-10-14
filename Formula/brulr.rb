@@ -1,28 +1,28 @@
 class Brulr < Formula
   desc "Burn AI tokens on purpose, and produce nothing at all"
   homepage "https://github.com/alephic-ai/brulr"
-  version "0.4.4"
+  version "0.4.5"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.4/brulr-v0.4.4-aarch64-apple-darwin.tar.gz"
-      sha256 "73e9fae35219bd787fc13cbbcc59f258b1d4ccb8a9c43140ce2b0439c5800ab3"
+      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.5/brulr-v0.4.5-aarch64-apple-darwin.tar.gz"
+      sha256 "237e1056253bc348015eb0f79df91790d92095add265ed76a3c64c773615cccf"
     end
     on_intel do
-      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.4/brulr-v0.4.4-x86_64-apple-darwin.tar.gz"
-      sha256 "3c5f261e34830776ae000fc4b91db092ba2fa642580e2f3d91679e0a0b4b6aeb"
+      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.5/brulr-v0.4.5-x86_64-apple-darwin.tar.gz"
+      sha256 "f27ee394ac6b4ddc6365bc01da2aab3e4e371d422063055d07f8f364f165dd20"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.4/brulr-v0.4.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "aa88dfdced70e9d5707010e8e62be7ee1eda3a7cc967a1641043985a372aea67"
+      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.5/brulr-v0.4.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0cfeda0f5b5dc64b678a794161f5e6c296fdcc3735de744a892e34ca94b00b6e"
     end
     on_intel do
-      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.4/brulr-v0.4.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "73feeddbca40a510bf4f6488c9489ac0991b41253f893558a0dc18df240cc130"
+      url "https://github.com/alephic-ai/brulr/releases/download/v0.4.5/brulr-v0.4.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3dfd7e9826189bf32944d665e3032d763f44e12f833a7fc2fa6bf7fc5ba3cbf"
     end
   end
 
