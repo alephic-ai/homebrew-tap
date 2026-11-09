@@ -1,28 +1,28 @@
 class Eh < Formula
   desc "Pick a coding harness, pick a model provider, go"
   homepage "https://github.com/alephic-ai/exquisite-harness"
-  version "0.22.0"
+  version "0.22.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.0/eh-darwin-arm64"
-      sha256 "0214cd5e99e37100fe016c73696d640f4d5268f884938b79be2ee0776f68757c"
+      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.1/eh-darwin-arm64"
+      sha256 "906f9e5b753d07bdf4eab75aa55ac9cb28506e44c321c17f0565a18590c8598d"
     end
     on_intel do
-      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.0/eh-darwin-x64"
-      sha256 "0e3b9b7ad52f812a45b063e7d2344025ce2b6d18756b42acf66f86999141492e"
+      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.1/eh-darwin-x64"
+      sha256 "091c88de02401c80f5fd08e32882e5bd022ada2dde5048f4b088a7165d3ae608"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.0/eh-linux-arm64"
-      sha256 "a370c746bfb09ad37bd8a3f2e570f4e9225e2ec0f1654a4d607c3349e0e6e5fc"
+      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.1/eh-linux-arm64"
+      sha256 "05761be50903442948163677108eb4f87455b5bc5880041388c8803077f78fb5"
     end
     on_intel do
-      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.0/eh-linux-x64"
-      sha256 "4f0c7a4467b73491fa4670ee08778e2a2500f740a46edbdb0d9f037e92c3f7e2"
+      url "https://github.com/alephic-ai/exquisite-harness/releases/download/eh-v0.22.1/eh-linux-x64"
+      sha256 "9ce39a91e0ed78225a97672976ce03d5db7dcee2cff019d7d5f328e7ee8cb6df"
     end
   end
 
