@@ -1,28 +1,28 @@
 class Foac < Formula
   desc "Father Of All CLIs, one CLI for every service your agents touch"
   homepage "https://github.com/alephic-ai/foac"
-  version "2.35.0"
+  version "2.35.1"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/alephic-ai/foac/releases/download/v2.35.0/foac-aarch64-apple-darwin.tar.gz"
-      sha256 "148b99edc0d6f1cc87e2b62a953c29ef5b7f33a1906573a61c3d2702366a6b71"
+      url "https://github.com/alephic-ai/foac/releases/download/v2.35.1/foac-aarch64-apple-darwin.tar.gz"
+      sha256 "92510e8991f53193c4b010f8e835989e48667dbb92769d137014557bd91a2097"
     end
     on_intel do
-      url "https://github.com/alephic-ai/foac/releases/download/v2.35.0/foac-x86_64-apple-darwin.tar.gz"
-      sha256 "5ee705a234ad6624e6ac26099599cdd978dd6569ba6c9b480930b5c0d618fca6"
+      url "https://github.com/alephic-ai/foac/releases/download/v2.35.1/foac-x86_64-apple-darwin.tar.gz"
+      sha256 "4e218289eb5e2f94ad5c18cdf007f85ccffa36eb3ddd6b0448dde58ad6284667"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alephic-ai/foac/releases/download/v2.35.0/foac-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ed61802547dad248c89b4e5d56630e819fab41a26f19705ed54d266f5275d9bc"
+      url "https://github.com/alephic-ai/foac/releases/download/v2.35.1/foac-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "750139d563105ecbdd7ba42f4a4fb66de9c7fcb5928786b09b1bf450333720e0"
     end
     on_intel do
-      url "https://github.com/alephic-ai/foac/releases/download/v2.35.0/foac-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "19c05413750209225c327881b70cef258bb04f9fcb03b5633ef035988f3147dc"
+      url "https://github.com/alephic-ai/foac/releases/download/v2.35.1/foac-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d310ea0cfba9b6a8b0494c0e22f77297903034109a39d2bc4d48ba081bf9847"
     end
   end
 
