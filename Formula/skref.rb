@@ -1,28 +1,28 @@
 class Skref < Formula
   desc "Validate, inspect, and prompt-render Agent Skills SKILL.md files"
   homepage "https://github.com/alephic-ai/skref"
-  version "1.2.0"
+  version "1.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/alephic-ai/skref/releases/download/v1.2.0/skref-aarch64-apple-darwin.tar.xz"
-      sha256 "fe9e2e0c2f91f4b655f8e5a37a090c5ea0c96a637ee5318d1050c872e43fb4d8"
+      url "https://github.com/alephic-ai/skref/releases/download/v1.3.1/skref-aarch64-apple-darwin.tar.xz"
+      sha256 "ffa5f3b27402fe9afcdff0fb01116527b63b537a2b32f6287321c14ba48e4a8a"
     end
     on_intel do
-      url "https://github.com/alephic-ai/skref/releases/download/v1.2.0/skref-x86_64-apple-darwin.tar.xz"
-      sha256 "68af593371803a3faaa773486a861a922ebc1a40f7e7b18ff5b724534cc41df4"
+      url "https://github.com/alephic-ai/skref/releases/download/v1.3.1/skref-x86_64-apple-darwin.tar.xz"
+      sha256 "d1dcfa0ccc61eeac3296103fafa6255278d0b6726663601094e1805f640050f8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/alephic-ai/skref/releases/download/v1.2.0/skref-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "35353adc9a25a7f80dab20e899b7223a564b7b76fe71d43011d1089462e6f3d5"
+      url "https://github.com/alephic-ai/skref/releases/download/v1.3.1/skref-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ac211304de704e878f8acbbfdc03bcd371978ea238a405bf1fd7cf0fbbcd7f39"
     end
     on_intel do
-      url "https://github.com/alephic-ai/skref/releases/download/v1.2.0/skref-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ad28e4b70498553d5ab9cb100e0d48e4cf79a73cda742450819c9a42a5a94b2b"
+      url "https://github.com/alephic-ai/skref/releases/download/v1.3.1/skref-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8cc2c3f819370b065cc3f710d87805a18b2730c90b33d3423c9360893377bf68"
     end
   end
 
